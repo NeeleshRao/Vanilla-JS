@@ -1,0 +1,28 @@
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 60vh;
+
+  background-color: #87d3b5;
+  margin-top: 2%;
+}
+
+.all-btn {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
+
+#increase,
+#decrease,
+#reset {
+  padding: 5%;
+  margin: 3%;
+}
